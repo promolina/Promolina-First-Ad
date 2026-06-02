@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
+
 /* =========================
    HERO SECTION
 ========================= */
@@ -43,6 +47,10 @@
 
 .hero h1::first-line {
   color: #fff;
+}
+
+h1 span {
+  color: #f26933;
 }
 
 .hero p {
