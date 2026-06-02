@@ -1,0 +1,9 @@
+day 1 of development.
+
+
+1. create new repo in github desktop
+2. import assets into project
+3. created this journal
+4. work on hero
+5. design responsiveness
+6. isolated the gear icon
