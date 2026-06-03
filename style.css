@@ -163,7 +163,8 @@ h1 span {
   }
 
   .hero h1 {
-    font-size: clamp(3.7rem, 1vw, 11rem);
+    font-size: 3.7rem;
+    max-width: 250px;
   }
 
   .hero p {
