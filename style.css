@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#psychology-strip {
+  scroll-margin-top: 10vh;
+}
+
 body {
   background-color: black;
 }
