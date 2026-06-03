@@ -166,7 +166,9 @@ h1 span {
       url("./assets/hero-sunset.webp");
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left center;
+    background-position: center center;
+    background-position: 65% center;
   }
 
   .hero h1 {
