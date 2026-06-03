@@ -249,3 +249,131 @@ body {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.42);
 }
+
+/* =========================
+   TRUST RESPONSE SECTION
+========================= */
+
+.trust-response {
+  min-height: 100vh;
+  padding: 4.75rem 1.85rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  color: #fff;
+  background:
+    radial-gradient(
+      circle at 35% 45%,
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0) 32%
+    ),
+    linear-gradient(to bottom, #2a2119 0%, #171410 65%, #0f0d0b 100%);
+}
+
+/* =========================
+   TRUST RESPONSE COPY
+========================= */
+
+.trust-response__content {
+  position: relative;
+  z-index: 2;
+}
+
+.trust-response__intro {
+  margin-bottom: 1.75rem;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+
+  color: #fff;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.8);
+}
+
+.trust-response__list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+
+.trust-response__list li {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  font-weight: 800;
+
+  color: #fff;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.8);
+}
+
+.trust-response__list img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* =========================
+   BACKGROUND GEAR
+========================= */
+
+.trust-response__bg-gear {
+  width: 430px;
+  height: 430px;
+
+  position: absolute;
+  right: -190px;
+  bottom: 5.5rem;
+  z-index: 1;
+
+  opacity: 0.18;
+  filter: blur(1.2px) drop-shadow(0 24px 22px rgba(0, 0, 0, 0.75));
+
+  transform: rotate(7deg);
+  pointer-events: none;
+}
+
+/* =========================
+   TRUST RESPONSE QUOTE
+========================= */
+
+.trust-response__quote-wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.trust-response__quote {
+  margin: 0 0 1.35rem;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 4.2rem;
+  line-height: 0.92;
+  font-weight: 400;
+  letter-spacing: -0.06em;
+
+  color: #fff;
+  text-shadow: 0 5px 18px rgba(0, 0, 0, 0.85);
+}
+
+.trust-response__quote span {
+  color: #ff7a00;
+}
+
+.trust-response__label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+
+  color: rgba(255, 255, 255, 0.42);
+}
