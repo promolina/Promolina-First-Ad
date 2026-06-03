@@ -159,19 +159,28 @@ h1 span {
 @media (max-width: 480px) {
   .hero {
     padding: 5.5rem 0.55rem 3.25rem;
+    background:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.55)),
+      linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.25)),
+      url("./assets/hero-sunset.webp");
+
+    background-size: auto;
+    background-repeat: no-repeat;
     background-position: center;
   }
 
   .hero h1 {
     font-size: 3.7rem;
     max-width: 250px;
+    margin-bottom: 1.25rem;
   }
 
   .hero p {
-    font-size: 1.55rem;
+    max-width: 230px;
+    font-size: 1.1rem;
   }
 
   .hero a {
-    font-size: 1.55rem;
+    font-size: 1.45rem;
   }
 }
