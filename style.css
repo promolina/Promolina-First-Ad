@@ -377,3 +377,221 @@ body {
 
   color: rgba(255, 255, 255, 0.42);
 }
+
+/* =========================
+   TRUST BUILD SECTION
+========================= */
+
+.trust-build {
+  min-height: 100vh;
+  padding: 2rem 1rem 2.5rem;
+  color: #111;
+  background: radial-gradient(
+    circle at 50% 20%,
+    rgba(255, 255, 255, 0.95),
+    rgba(243, 234, 223, 0.92) 42%,
+    rgba(235, 222, 207, 1) 100%
+  );
+}
+
+/* =========================
+   TRUST BUILD HEADER
+========================= */
+
+.trust-build__header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.trust-build__header h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+}
+
+.trust-build__header h2 span {
+  display: block;
+  color: #f26933;
+}
+
+.trust-build__header h2 strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+}
+
+.trust-build__header p {
+  margin: 0.75rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgba(35, 25, 18, 0.35);
+}
+
+.trust-build__header p::before,
+.trust-build__header p::after {
+  content: "";
+  width: 70px;
+  height: 1px;
+  background: rgba(242, 105, 51, 0.25);
+}
+
+/* =========================
+   TRUST BUILD LAYOUT
+========================= */
+
+.trust-build__layout {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.trust-build__timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.trust-build__timeline::before {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    rgba(242, 105, 51, 0.2),
+    rgba(242, 105, 51, 0.85),
+    rgba(242, 105, 51, 0.2)
+  );
+}
+
+.trust-build__timeline span {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  z-index: 1;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+  background: #f26933;
+  color: #fff;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+
+  box-shadow:
+    0 0 0 4px rgba(255, 255, 255, 0.75),
+    0 8px 18px rgba(242, 105, 51, 0.32);
+}
+
+/* =========================
+   TRUST BUILD CARDS
+========================= */
+
+.trust-build__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.trust-card {
+  min-height: 104px;
+  padding: 0.85rem 0.95rem;
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  align-items: center;
+  gap: 0.85rem;
+
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+  box-shadow:
+    0 12px 26px rgba(75, 45, 22, 0.09),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+
+  backdrop-filter: blur(6px);
+}
+
+.trust-card img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.trust-card h3 {
+  margin: 0 0 0.25rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.trust-card h3::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 2px;
+  margin-top: 0.35rem;
+  background: #f26933;
+}
+
+.trust-card__service {
+  margin: 0 0 0.35rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: rgba(20, 20, 20, 0.55);
+}
+
+.trust-card__thought {
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  font-style: italic;
+  font-weight: 700;
+  color: #191919;
+}
+
+/* =========================
+   TRUST BUILD CLOSING
+========================= */
+
+.trust-build__closing {
+  margin: 1.25rem 0 0;
+
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1.05;
+  font-weight: 900;
+  letter-spacing: -0.06em;
+  color: #111;
+}
+
+.trust-build__closing span {
+  color: #f26933;
+}
