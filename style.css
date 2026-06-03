@@ -81,6 +81,7 @@ h1 span {
 .hero a {
   width: fit-content;
   margin: 2.5rem 0;
+  margin-top: 7rem;
   padding: 0.95rem 1.2rem;
   display: inline-flex;
   align-items: center;
